@@ -201,6 +201,7 @@ padding: 20px;
 box-shadow: 4px 2px #7C7F7E;
 background-color: white;
 
+
 }
 
 .blur { 
@@ -289,6 +290,22 @@ opacity: 0.8;
   .grid-container {
 
 display: block;
+
+}
+.maingrid {
+
+display: grid;
+grid-template-columns: 1fr; 
+margin-top: 100px;
+margin-left: 40px;
+margin-right: 40px;
+grid-column-gap: 10px;
+
+}
+
+.panel {
+	margin-top: 15px;
+}
 
 }
 
