@@ -101,11 +101,6 @@ grid-column-gap: 10px;
 }
 
 @media screen and (max-width: 600px) {
-
-.maingrid {
-	margin-left: 10px;
-	margin-right: 10px;
-}	
  
   .links {
   	display: none;
@@ -303,9 +298,9 @@ display: block;
 display: grid;
 grid-template-columns: 1fr; 
 margin-top: 100px;
-margin-left: 40px;
-margin-right: 40px;
-grid-column-gap: 10px;
+margin-left: 10px;
+margin-right: 10px;
+grid-column-gap: 10px;	
 
 }
 
