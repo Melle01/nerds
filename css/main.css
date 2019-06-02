@@ -89,7 +89,23 @@ h1, h2, h3 {
 
 }
 
+.maingrid {
+
+display: grid;
+grid-template-columns: 2fr 1fr; 
+margin-top: 100px;
+margin-left: 40px;
+margin-right: 40px;
+grid-column-gap: 10px;
+
+}
+
 @media screen and (max-width: 600px) {
+
+.maingrid {
+	margin-left: 10px;
+	margin-right: 10px;
+}	
  
   .links {
   	display: none;
@@ -176,16 +192,7 @@ color: black;
 	color: #e6e6e6;
 }
 
-.maingrid {
 
-display: grid;
-grid-template-columns: 2fr 1fr; 
-margin-top: 100px;
-margin-left: 40px;
-margin-right: 40px;
-grid-column-gap: 10px;
-
-}
 
 .panelgrid {
 	display: grid;
